@@ -1,0 +1,429 @@
+/*Общее*/
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+/*svg:hover {
+    fill: dodgerblue;
+}*/
+.pf_categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer {
+    background-color: #2F303A;
+    padding-left: 215px;
+    padding-right: 215px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.ftr_p_1 {
+  margin-top: 60px;  
+}
+.ftr_p_2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.whi {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+.g {
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+h1 {
+    text-align: center;
+}
+
+/*.icon:hover {
+    fill: white;
+    background-color: dodgerblue;
+}*/
+.icon {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+}
+
+.icon:hover>.icon-bac {
+    fill: dodgerblue;
+}
+
+.icon-cl:hover>.icon-bac {
+    fill: dodgerblue;
+}
+.icon-cl:hover>rect {
+    stroke: dodgerblue;
+}
+
+.icon:hover>.icon-g>.icon-g-wt {
+    fill: white;
+}
+
+/*.rect:hover {
+    fill: dodgerblue;
+}*/
+.icon:hover>rect {
+    stroke: dodgerblue;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/*Главная*/
+
+.team {
+    background: #F5F4FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.team1 {
+    display: flex;
+
+}
+
+.worker {
+    margin-right: 30px;
+    max-width: 270px;
+    max-height: 422px;
+}
+
+.card {
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.vector {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+section {
+    width: 270px;
+    height: 251px;
+    margin-left: 30px;
+}
+
+.features1 {
+    display: flex;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.hero {
+    width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid black;
+    background-image:
+        linear-gradient(to right, rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7)),
+        url(img/Header.jpg      );
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.WebStudio {
+    width: 153px;
+    height: 31px;
+    justify-content: center;
+    align-items: center;
+    line-height: 24px;
+    margin-left: 215px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.inner_h {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/*.ssylka1 {
+    margin-left: 85px;
+    margin-top: 32px;
+   margin-bottom: 32px;
+}*/
+.logo {
+
+    display: flex;
+    width: 369px;
+    height: 80px;
+}
+
+.linc {
+    /*
+    display: flex;
+    align-self: flex-start;*/
+    line-height: 32px;
+}
+
+.top {
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    /*line-height: 60px;
+  width: 294px;
+  height: 80px;*/
+    justify-content: flex-start;
+
+}
+
+.functionality {
+    display: flex;
+    justify-content: center;
+
+}
+
+.f_card_1 {
+    background-image: url(img/img.jpg);
+    width: 370px;
+    height: 294px;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    width: 942px;
+    height: 1500px;
+    justify-content: space-between;
+}
+
+/*.item {
+
+}*/
+  
+.f_card_2 {
+    background-image: url(img/box.jpg);
+    width: 370px;
+    height: 294px;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.f_card_3 {
+    background-image: url(img/img3.jpg);
+    width: 370px;
+    height: 294px;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.f_card_wr {
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 370px;
+    height: 70px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.func {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.client {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header_a {
+    display: flex;
+
+}
+
+.client_bg {
+    width: 1600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /*  justify-content: center;*/
+    align-items: center;
+    padding-left: 160px;
+
+}
+
+.header_b {
+    /* padding-right: 50px;
+       height: 16px;
+    text-align: center;*/
+    padding-left: 25px;
+    padding-right: 25px;
+
+    ;
+
+}
+
+.post {
+    width: 16px;
+    height: 11.2px;
+}
+
+.number {
+    width: 10px;
+    height: 14.94px;
+}
+
+header {
+    width: 1600px;
+    height: 80px;
+
+
+}
+
+.btn1 {
+    color: white;
+    text-align: center;
+    background-color: dodgerblue;
+    width: 200px;
+    height: 50px;
+    line-height: 15px;
+    border-radius: 4px;
+    margin-right: 700px;
+    margin-left: 700px;
+}
+
+.inner {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.hero_title {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.ftr_elements {
+    margin-left: 214px;
+    margin-right: 214px;
+    display: flex;
+}
+
+.ftr_links {
+    display: flex;
+   
+}
+.ftr_link {
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+
+/*Портфолио*/
+
+.buton1 {
+    /* margin-top: 3px ;
+ margin-bottom: 3px;
+ margin-left: 11px ;
+ margin-right:11px ; */
+    border-radius: 4px;
+    background-color: #F5F4FA;
+
+}
+
+.btn_set {
+    flex-direction: row;
+}

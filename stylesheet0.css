@@ -1,0 +1,15 @@
+.row {
+  margin: 20px;
+}
+.image_wrapper {
+  display: inline-block;
+  position: relative; /* give position relative so child elements .overlay can be positioned absolutely */
+  height: 250px; /* to match the image height */
+}
+.overlay.bottom_full {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  transition: height 0.3s ease-in-out /* we will change height to 100% later */
+}
